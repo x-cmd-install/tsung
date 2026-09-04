@@ -7,7 +7,7 @@ about:
   head: 3c9a2f0
   archived: false
   latestVersion: 
-  collectedAt: 2026-09-04T19:51:43Z
+  collectedAt: 2026-09-04T20:49:38Z
 timeline:
   created: 2010-02-01
   lastCommit: 2026-03-02
@@ -87,6 +87,74 @@ total:
   openIssue: 123
   commit: 2196
 ---
+path: /home/runner/.x-repo/github.com/processone/tsung
+collectedAt: 2026-09-04T20:49:39Z
+loc:
+  Erlang:
+    code: 26342
+    comments: 8631
+    blanks: 4102
+    files: 162
+  Autoconf:
+    code: 3906
+    comments: 208
+    blanks: 728
+    files: 39
+  ReStructuredText:
+    code: 3132
+    comments: 0
+    blanks: 1466
+    files: 21
+  Bitbake:
+    code: 428
+    comments: 28
+    blanks: 76
+    files: 6
+  Python:
+    code: 183
+    comments: 183
+    blanks: 113
+    files: 3
+  Css:
+    code: 78
+    comments: 52
+    blanks: 24
+    files: 3
+  Html:
+    code: 61
+    comments: 0
+    blanks: 8
+    files: 1
+  M4:
+    code: 27
+    comments: 14
+    blanks: 8
+    files: 1
+  JavaScript:
+    code: 5
+    comments: 7
+    blanks: 0
+    files: 3
+  Makefile:
+    code: 1
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 646
+    blanks: 101
+    files: 2
+  Text:
+    code: 0
+    comments: 258
+    blanks: 93
+    files: 9
+total:
+  code: 34163
+  comments: 10027
+  blanks: 6719
+  files: 251
 ---
 date: "2026-08-24"
 repo:
