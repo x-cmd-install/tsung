@@ -1,57 +1,16 @@
-- repo: raspbian_oldstable
-  subrepo: main
+- repo: epel_8
   srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.7.0
-  origversion: 1.7.0-3.1
-  status: outdated
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - net
-- repo: raspbian_stable
-  subrepo: main
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.7.0
-  origversion: 1.7.0-3.1
-  status: outdated
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - net
-- repo: raspbian_testing
-  subrepo: main
-  srcname: tsung
-  binnames:
-    - tsung
   visiblename: tsung
   version: 1.8.0
-  origversion: 1.8.0-0.2
+  origversion: 1.8.0-3.el8
   status: newest
-  maintainers:
-    - mouzannar@gmail.com
+  summary: A distributed multi-protocol load testing tool
+  licenses:
+    - GPL-2.0-only
   categories:
-    - net
-- repo: pardus_21
-  subrepo: main
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.7.0
-  origversion: 1.7.0-3.1
-  status: outdated
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - net
-- repo: parrot
-  subrepo: parrot/main
+    - Unspecified
+- repo: debian_11
+  subrepo: bullseye/main
   srcname: tsung
   binnames:
     - tsung
@@ -88,19 +47,6 @@
     - slact@aur
   licenses:
     - GPL
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.7.0
-  origversion: 1.7.0-3.1
-  status: outdated
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - net
 - repo: debian_12
   subrepo: bookworm/main
   srcname: tsung
@@ -188,35 +134,11 @@
     - GPLv2
   categories:
     - Unspecified
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.7.0
-  origversion: 1.7.0-3
-  status: outdated
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - net
 - repo: epel_7
   srcname: tsung
   visiblename: tsung
   version: 1.8.0
   origversion: 1.8.0-3.el7
-  status: newest
-  summary: A distributed multi-protocol load testing tool
-  licenses:
-    - GPL-2.0-only
-  categories:
-    - Unspecified
-- repo: epel_8
-  srcname: tsung
-  visiblename: tsung
-  version: 1.8.0
-  origversion: 1.8.0-3.el8
   status: newest
   summary: A distributed multi-protocol load testing tool
   licenses:
@@ -368,19 +290,6 @@
     - GPL-2
   categories:
     - net-analyzer
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.7.0
-  origversion: 1.7.0-3.1
-  status: outdated
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - net
 - repo: homebrew
   srcname: tsung
   visiblename: tsung
@@ -541,6 +450,97 @@
     - GPL-2.0-only
   categories:
     - Productivity/Networking/Other
+- repo: pardus_21
+  subrepo: main
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.7.0
+  origversion: 1.7.0-3.1
+  status: outdated
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - net
+- repo: parrot
+  subrepo: parrot/main
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.7.0
+  origversion: 1.7.0-3.1
+  status: outdated
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - net
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.7.0
+  origversion: 1.7.0-3
+  status: outdated
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - net
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.7.0
+  origversion: 1.7.0-3.1
+  status: outdated
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - net
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.7.0
+  origversion: 1.7.0-3.1
+  status: outdated
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - net
+- repo: raspbian_stable
+  subrepo: main
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.7.0
+  origversion: 1.7.0-3.1
+  status: outdated
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - net
+- repo: raspbian_testing
+  subrepo: main
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.8.0
+  origversion: 1.8.0-0.2
+  status: newest
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - net
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: tsung
@@ -718,19 +718,6 @@
     - universe/net
 - repo: ubuntu_26_10
   subrepo: stonking/universe
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.8.0
-  origversion: 1.8.0-0.1
-  status: newest
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - universe/net
-- repo: ubuntu_26_10_proposed
-  subrepo: stonking-proposed/universe
   srcname: tsung
   binnames:
     - tsung
