@@ -237,3 +237,4 @@ checks:
     details:
       - 'Info: project has a license file: COPYING:0'
       - 'Info: FSF or OSI recognized license: GNU General Public License v2.0: COPYING:0'
+---
