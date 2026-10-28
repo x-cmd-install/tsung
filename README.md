@@ -30,9 +30,9 @@ Overall score: **3.5 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
 
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,630 · **Forks**: 403 · **Open issues**: 218 · **Contributors**: 74
+- **Stars**: 2,629 · **Forks**: 403 · **Open issues**: 218 · **Contributors**: 74
 
 ## Totals (cumulative)
 
@@ -52,12 +52,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-28 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-29 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-30 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-01 | 0 | 0 | 0 | 0 | 1 | 0 |
-| last720d | 2024-11-06 | 0 | 7 | 0 | 1 | 5 | 18 |
+| 30d | 2026-09-28 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-29 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-30 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-01 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-02 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last720d | 2024-11-07 | 0 | 7 | 0 | 1 | 5 | 18 |
 
 ## Distribution status
 
@@ -84,4 +84,4 @@ Install metadata for tsung lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T05:09:25Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T05:44:51Z._
