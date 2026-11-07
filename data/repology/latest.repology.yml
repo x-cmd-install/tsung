@@ -1,5 +1,5 @@
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
+- repo: parrot
+  subrepo: parrot/main
   srcname: tsung
   binnames:
     - tsung
@@ -10,96 +10,9 @@
   maintainers:
     - mouzannar@gmail.com
   categories:
-    - universe/net
-- repo: ubuntu_25_10
-  subrepo: questing/universe
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.7.0
-  origversion: 1.7.0-3.1
-  status: outdated
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - universe/net
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.8.0
-  origversion: 1.8.0-0.1
-  status: newest
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - universe/net
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.8.0
-  origversion: 1.8.0-0.2
-  status: newest
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - universe/net
-- repo: wikidata
-  srcname: Q4051849
-  visiblename: Tsung
-  version: 1.8.0
-  origversion: null
-  status: newest
-  summary: stress testing software
-  licenses:
-    - GNU General Public License, version 2.0
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.7.0
-  origversion: 1.7.0-3.1
-  status: outdated
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - universe/net
-- repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.7.0
-  origversion: 1.7.0-3.1
-  status: outdated
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - universe/net
-- repo: ubuntu_16_04
-  subrepo: xenial/universe
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.5.1
-  origversion: 1.5.1-1
-  status: outdated
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - universe/net
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
+    - net
+- repo: pureos_amber
+  subrepo: amber/main
   srcname: tsung
   binnames:
     - tsung
@@ -110,9 +23,9 @@
   maintainers:
     - mouzannar@gmail.com
   categories:
-    - universe/net
-- repo: ubuntu_20_04
-  subrepo: focal/universe
+    - net
+- repo: pureos_byzantium
+  subrepo: byzantium/main
   srcname: tsung
   binnames:
     - tsung
@@ -120,19 +33,6 @@
   version: 1.7.0
   origversion: 1.7.0-3.1
   status: outdated
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - universe/net
-- repo: kali_rolling
-  subrepo: main
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.8.0
-  origversion: 1.8.0-0.2
-  status: newest
   maintainers:
     - mouzannar@gmail.com
   categories:
@@ -482,6 +382,19 @@
   origversion: null
   status: rolling
   summary: Load testing for HTTP, PostgreSQL, Jabber, and others
+- repo: kali_rolling
+  subrepo: main
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.8.0
+  origversion: 1.8.0-0.2
+  status: newest
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - net
 - repo: liguros_stable
   srcname: net-analyzer/tsung
   visiblename: net-analyzer/tsung
@@ -588,17 +501,6 @@
     - urban.skudnik@gmail.com
   licenses:
     - GPL-2.0-or-later
-- repo: openpkg_current
-  srcname: tsung
-  visiblename: tsung
-  version: 1.8.0
-  origversion: null
-  status: newest
-  summary: Multi-Protocol Distributed Load Testing Tool
-  licenses:
-    - GPL
-  categories:
-    - Networking
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: tsung
@@ -617,45 +519,6 @@
     - Productivity/Networking/Other
 - repo: pardus_21
   subrepo: main
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.7.0
-  origversion: 1.7.0-3.1
-  status: outdated
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - net
-- repo: parrot
-  subrepo: parrot/main
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.7.0
-  origversion: 1.7.0-3.1
-  status: outdated
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - net
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.7.0
-  origversion: 1.7.0-3
-  status: outdated
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - net
-- repo: pureos_byzantium
-  subrepo: byzantium/main
   srcname: tsung
   binnames:
     - tsung
@@ -712,3 +575,142 @@
     - mouzannar@gmail.com
   categories:
     - universe/net
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.5.1
+  origversion: 1.5.1-1
+  status: outdated
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - universe/net
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.7.0
+  origversion: 1.7.0-3
+  status: outdated
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - universe/net
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.7.0
+  origversion: 1.7.0-3.1
+  status: outdated
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - universe/net
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.7.0
+  origversion: 1.7.0-3.1
+  status: outdated
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - universe/net
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.7.0
+  origversion: 1.7.0-3.1
+  status: outdated
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - universe/net
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.7.0
+  origversion: 1.7.0-3.1
+  status: outdated
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - universe/net
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.7.0
+  origversion: 1.7.0-3.1
+  status: outdated
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - universe/net
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.8.0
+  origversion: 1.8.0-0.1
+  status: newest
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - universe/net
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.8.0
+  origversion: 1.8.0-0.2
+  status: newest
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - universe/net
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.8.0
+  origversion: 1.8.0-0.2
+  status: newest
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - universe/net
+- repo: wikidata
+  srcname: Q4051849
+  visiblename: Tsung
+  version: 1.8.0
+  origversion: null
+  status: newest
+  summary: stress testing software
+  licenses:
+    - GNU General Public License, version 2.0
