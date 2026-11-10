@@ -1,3 +1,16 @@
+- repo: pardus_21
+  subrepo: main
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.7.0
+  origversion: 1.7.0-3.1
+  status: outdated
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - net
 - repo: parrot
   subrepo: parrot/main
   srcname: tsung
@@ -76,13 +89,48 @@
     - mouzannar@gmail.com
   categories:
     - net
+- repo: epel_6
+  srcname: tsung
+  visiblename: tsung
+  version: 1.6.0
+  origversion: 1.6.0-1.el6
+  status: outdated
+  summary: A distributed multi-protocol load testing tool
+  licenses:
+    - GPLv2
+  categories:
+    - Unspecified
+- repo: epel_7
+  srcname: tsung
+  visiblename: tsung
+  version: 1.8.0
+  origversion: 1.8.0-3.el7
+  status: newest
+  summary: A distributed multi-protocol load testing tool
+  licenses:
+    - GPL-2.0-only
+  categories:
+    - Unspecified
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.8.0
+  origversion: 1.8.0-0.2
+  status: newest
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - net
 - repo: alpine_edge
   subrepo: testing
   srcname: tsung
   binname: tsung
   visiblename: tsung
   version: 1.8.0
-  origversion: 1.8.0-r3
+  origversion: 1.8.0-r4
   status: newest
   summary: Tsung is a high-performance benchmark framework for various protocols including HTTP,XMPP,LDAP,etc.
   maintainers:
@@ -177,41 +225,6 @@
     - mouzannar@gmail.com
   categories:
     - net
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.8.0
-  origversion: 1.8.0-0.2
-  status: newest
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - net
-- repo: epel_6
-  srcname: tsung
-  visiblename: tsung
-  version: 1.6.0
-  origversion: 1.6.0-1.el6
-  status: outdated
-  summary: A distributed multi-protocol load testing tool
-  licenses:
-    - GPLv2
-  categories:
-    - Unspecified
-- repo: epel_7
-  srcname: tsung
-  visiblename: tsung
-  version: 1.8.0
-  origversion: 1.8.0-3.el7
-  status: newest
-  summary: A distributed multi-protocol load testing tool
-  licenses:
-    - GPL-2.0-only
-  categories:
-    - Unspecified
 - repo: epel_8
   srcname: tsung
   visiblename: tsung
@@ -355,6 +368,22 @@
     - ports@freebsd.org
   categories:
     - benchmarks
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: tsung
+  binnames:
+    - tsung
+    - tsung-debuginfo
+    - tsung-debugsource
+  visiblename: tsung
+  version: 1.8.0
+  origversion: 1.8.0-2.5
+  status: newest
+  summary: A distributed multi-protocol load testing tool
+  licenses:
+    - GPL-2.0-only
+  categories:
+    - Productivity/Networking/Other
 - repo: gentoo
   srcname: net-analyzer/tsung
   visiblename: net-analyzer/tsung
@@ -501,35 +530,6 @@
     - urban.skudnik@gmail.com
   licenses:
     - GPL-2.0-or-later
-- repo: opensuse_tumbleweed
-  subrepo: src-oss
-  srcname: tsung
-  binnames:
-    - tsung
-    - tsung-debuginfo
-    - tsung-debugsource
-  visiblename: tsung
-  version: 1.8.0
-  origversion: 1.8.0-2.5
-  status: newest
-  summary: A distributed multi-protocol load testing tool
-  licenses:
-    - GPL-2.0-only
-  categories:
-    - Productivity/Networking/Other
-- repo: pardus_21
-  subrepo: main
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.7.0
-  origversion: 1.7.0-3.1
-  status: outdated
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - net
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: tsung
