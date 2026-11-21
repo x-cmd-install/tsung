@@ -1,5 +1,5 @@
-- repo: devuan_4_0
-  subrepo: chimaera/main
+- repo: raspbian_stable
+  subrepo: main
   srcname: tsung
   binnames:
     - tsung
@@ -11,8 +11,41 @@
     - mouzannar@gmail.com
   categories:
     - net
-- repo: devuan_unstable
-  subrepo: unstable/main
+- repo: homebrew
+  srcname: tsung
+  visiblename: tsung
+  version: 1.8.0
+  origversion: null
+  status: newest
+  summary: Load testing for HTTP, PostgreSQL, Jabber, and others
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.7.0
+  origversion: 1.7.0-3.1
+  status: outdated
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - net
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.7.0
+  origversion: 1.7.0-3.1
+  status: outdated
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - net
+- repo: raspbian_testing
+  subrepo: main
   srcname: tsung
   binnames:
     - tsung
@@ -24,6 +57,48 @@
     - mouzannar@gmail.com
   categories:
     - net
+- repo: homebrew
+  srcname: tsung
+  visiblename: tsung
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Load testing for HTTP, PostgreSQL, Jabber, and others
+- repo: kali_rolling
+  subrepo: main
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.8.0
+  origversion: 1.8.0-0.2
+  status: newest
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - net
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.8.0
+  origversion: 1.8.0-0.2
+  status: newest
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - universe/net
+- repo: wikidata
+  srcname: Q4051849
+  visiblename: Tsung
+  version: 1.8.0
+  origversion: null
+  status: newest
+  summary: stress testing software
+  licenses:
+    - GNU General Public License, version 2.0
 - repo: alpine_edge
   subrepo: testing
   srcname: tsung
@@ -101,17 +176,32 @@
     - mouzannar@gmail.com
   categories:
     - net
-- repo: deepin_unstable
-  subrepo: main
+- repo: devuan_4_0
+  subrepo: chimaera/main
   srcname: tsung
   binnames:
     - tsung
   visiblename: tsung
   version: 1.7.0
-  origversion: 1.7.0-3
+  origversion: 1.7.0-3.1
   status: outdated
   maintainers:
     - mouzannar@gmail.com
+  categories:
+    - net
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: tsung
+  binnames:
+    - tsung
+  visiblename: tsung
+  version: 1.8.0
+  origversion: 1.8.0-0.2
+  status: newest
+  maintainers:
+    - mouzannar@gmail.com
+  categories:
+    - net
 - repo: epel_7
   srcname: tsung
   visiblename: tsung
@@ -294,33 +384,6 @@
     - GPL-2
   categories:
     - net-analyzer
-- repo: homebrew
-  srcname: tsung
-  visiblename: tsung
-  version: 1.8.0
-  origversion: null
-  status: newest
-  summary: Load testing for HTTP, PostgreSQL, Jabber, and others
-- repo: homebrew
-  srcname: tsung
-  visiblename: tsung
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Load testing for HTTP, PostgreSQL, Jabber, and others
-- repo: kali_rolling
-  subrepo: main
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.8.0
-  origversion: 1.8.0-0.2
-  status: newest
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - net
 - repo: liguros_stable
   srcname: net-analyzer/tsung
   visiblename: net-analyzer/tsung
@@ -478,58 +541,6 @@
   version: 1.7.0
   origversion: 1.7.0-3
   status: outdated
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - net
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.7.0
-  origversion: 1.7.0-3.1
-  status: outdated
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - net
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.7.0
-  origversion: 1.7.0-3.1
-  status: outdated
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - net
-- repo: raspbian_stable
-  subrepo: main
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.7.0
-  origversion: 1.7.0-3.1
-  status: outdated
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - net
-- repo: raspbian_testing
-  subrepo: main
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.8.0
-  origversion: 1.8.0-0.2
-  status: newest
   maintainers:
     - mouzannar@gmail.com
   categories:
@@ -696,25 +707,3 @@
     - mouzannar@gmail.com
   categories:
     - universe/net
-- repo: ubuntu_27_04
-  subrepo: tenacious/universe
-  srcname: tsung
-  binnames:
-    - tsung
-  visiblename: tsung
-  version: 1.8.0
-  origversion: 1.8.0-0.2
-  status: newest
-  maintainers:
-    - mouzannar@gmail.com
-  categories:
-    - universe/net
-- repo: wikidata
-  srcname: Q4051849
-  visiblename: Tsung
-  version: 1.8.0
-  origversion: null
-  status: newest
-  summary: stress testing software
-  licenses:
-    - GNU General Public License, version 2.0
